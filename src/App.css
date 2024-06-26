@@ -1,0 +1,25 @@
+body{
+    background-color:#e8eff5 ;
+}
+.pagination {
+    display: flex;
+    list-style: none;
+  }
+  
+  .pagination__link {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .pagination__link--disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .pagination__link--active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+  }
+  
